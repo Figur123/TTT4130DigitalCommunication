@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Do not ignore these files
+!Lab2
+!Lab2/TTT4130_Project2.mlx
+!Lab2/CommSysSimulink_Project2.slx
+
+#handy stuff
+!README.md
+!.gitignore
