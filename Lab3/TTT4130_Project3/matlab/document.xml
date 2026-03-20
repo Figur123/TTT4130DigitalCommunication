@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body><w:p><w:pPr><w:pStyle w:val="title"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:b/></w:rPr><w:t>Digital Communications TTT4130 - Matlab Lab Sessions</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:b/></w:rPr><w:t>Lab Responsible</w:t></w:r><w:r><w:t>: Johan Suarez (johan.suarez@ntnu.no)</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:b/><w:u/><w:rFonts w:cs="monospace"/></w:rPr><w:t>Prerequisites</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t>Up-to-date installation of </w:t></w:r><w:r><w:rPr><w:rFonts w:cs="monospace"/></w:rPr><w:t>MATLAB </w:t></w:r><w:r><w:t>and </w:t></w:r><w:r><w:rPr><w:rFonts w:cs="monospace"/></w:rPr><w:t>SIMULINK </w:t></w:r><w:r><w:t>including </w:t></w:r><w:r><w:rPr><w:rFonts w:cs="monospace"/></w:rPr><w:t>Communications Toolbox. (NTNU students receive Campus license)</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:b/><w:u/><w:rFonts w:cs="monospace"/></w:rPr><w:t>Instructions</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:b/></w:rPr><w:t>All lab sessions are group projects. Groups will be assigned randomly and consist of 2-3 people.</w:t></w:r><w:r><w:t> </w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t>This is a Matlab live script. The script will guide through the lab session with coding tasks accompanied by explanations and comments.</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:b/></w:rPr><w:t>Please download and install MATLAB/Simulink and include the Communications toolbox as add-in. </w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:b/></w:rPr><w:t>You are free to use any resource you think is useful. Collaboration and discussion between groups is encouraged. </w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="title"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:rFonts w:cs="monospace"/></w:rPr><w:t>Project 3 - Channel Coding</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"><mc:Choice Requires="R2018b"><w:pPr><w:pStyle w:val="heading2"/><w:jc w:val="left"/></w:pPr></mc:Choice><mc:Fallback><w:pPr><w:pStyle w:val="heading"/><w:jc w:val="left"/></w:pPr></mc:Fallback></mc:AlternateContent><w:r><w:rPr><w:rFonts w:cs="monospace"/></w:rPr><w:t>Digital Communication System Schematic</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="title"/><w:jc w:val="left"/></w:pPr><w:customXml w:element="image"><w:customXmlPr><w:attr w:name="height" w:val="367"/><w:attr w:name="width" w:val="704"/><w:attr w:name="verticalAlign" w:val="baseline"/><w:attr w:name="altText" w:val="DigitalCommunicationSystemSchematic_P3.png"/><w:attr w:name="relationshipId" w:val="rId1"/></w:customXmlPr></w:customXml></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t>Specifically, the lab session covers the highlighted (red) parts of the schematic depicted above. </w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"><mc:Choice Requires="R2018b"><w:pPr><w:pStyle w:val="heading2"/><w:jc w:val="left"/></w:pPr></mc:Choice><mc:Fallback><w:pPr><w:pStyle w:val="heading"/><w:jc w:val="left"/></w:pPr></mc:Fallback></mc:AlternateContent><w:r><w:rPr><w:b/><w:u/><w:rFonts w:cs="monospace"/></w:rPr><w:t>Course Content</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:numId w:val="1"/></w:numPr><w:jc w:val="left"/></w:pPr><w:r><w:t>Coding Gain</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:numId w:val="1"/></w:numPr><w:jc w:val="left"/></w:pPr><w:r><w:t>Convolutional Codes</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:numId w:val="1"/></w:numPr><w:jc w:val="left"/></w:pPr><w:r><w:t>Cyclic redundancy check</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:numId w:val="1"/></w:numPr><w:jc w:val="left"/></w:pPr><w:r><w:t>Bit interleaved coded modulation</w:t></w:r></w:p><w:p><w:pPr><w:sectPr/></w:pPr></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"><mc:Choice Requires="R2018b"><w:pPr><w:pStyle w:val="heading3"/><w:jc w:val="left"/></w:pPr></mc:Choice><mc:Fallback><w:pPr><w:pStyle w:val="heading"/><w:jc w:val="left"/></w:pPr></mc:Fallback></mc:AlternateContent><w:r><w:rPr><w:b/><w:u/><w:rFonts w:cs="monospace"/></w:rPr><w:t>Task 1 : Hamming Code</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t>This task illustrates the principle of </w:t></w:r><w:r><w:rPr><w:i/></w:rPr><w:t>block codes</w:t></w:r><w:r><w:t>. </w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:numId w:val="1"/></w:numPr><w:jc w:val="left"/></w:pPr><w:r><w:t>Generator Matrix</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:numId w:val="1"/></w:numPr><w:jc w:val="left"/></w:pPr><w:r><w:t>Parity Check Matrix</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:numId w:val="1"/></w:numPr><w:jc w:val="left"/></w:pPr><w:r><w:t>Syndrome</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t>Recomended reading: Section 6.4 </w:t></w:r><w:r><w:rPr><w:i/></w:rPr><w:t>Linear Block Codes </w:t></w:r><w:r><w:t>in </w:t></w:r><w:r><w:rPr><w:i/></w:rPr><w:t>Digital Communications, Sklar</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="code"/></w:pPr><w:r><w:t><![CDATA[% Tip: Use MatLab inbuilt functions whenever possible 
+
+
+% Define message length k and codeword length n 
+n = 7; k = 4;     
+
+% Generate random binary message of length k
+
+
+% Generate parity check matrix and generator matrix using hammgen()
+
+
+% Encode the message using encode()
+
+
+
+
+%  Use the first column of the codes STANDARD ARRAY to construct the error
+%  pattern -> syndrome LUT
+
+
+
+% Introduce 1-bit errors at different positions in the codeword and calculate the
+% syndrome of the error
+
+
+% Flip 1 bit
+
+
+% Decode using created LUT & check if 1-bit error can be successfully
+% decoded
+
+
+% ------------------------------------------------- %
+
+% Flip 2 bits at different positions and check if the erraneous codeword
+% can be successfully decoded
+
+
+% Decode with Matlab inbuilt functions and confirm your findings from above
+]]></w:t></w:r></w:p><w:p><w:pPr><w:sectPr/></w:pPr></w:p><w:p><mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"><mc:Choice Requires="R2018b"><w:pPr><w:pStyle w:val="heading3"/><w:jc w:val="left"/></w:pPr></mc:Choice><mc:Fallback><w:pPr><w:pStyle w:val="heading"/><w:jc w:val="left"/></w:pPr></mc:Fallback></mc:AlternateContent><w:r><w:rPr><w:b/><w:u/><w:rFonts w:cs="monospace"/></w:rPr><w:t>Task 2 : Convolutional Encoder &amp; Decoder</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:numId w:val="1"/></w:numPr><w:jc w:val="left"/></w:pPr><w:r><w:t>Convolutional Encoding</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:numId w:val="1"/></w:numPr><w:jc w:val="left"/></w:pPr><w:r><w:t>Convolutional Code Parameters</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:customXml w:element="image"><w:customXmlPr><w:attr w:name="height" w:val="238"/><w:attr w:name="width" w:val="344"/><w:attr w:name="verticalAlign" w:val="baseline"/><w:attr w:name="altText" w:val="conv_encoder_diagram.png"/><w:attr w:name="relationshipId" w:val="rId2"/></w:customXmlPr></w:customXml></w:p><w:p><w:pPr><w:pStyle w:val="title"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t>Determine the convolutional coding parameters from the schematic above. Then implement the convolutional encoder for a binary sequence of your choice. </w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t>If you decide to use a non continous message bit stream (i.e., a message of specific length) </w:t></w:r><w:r><w:rPr><w:i/></w:rPr><w:t>flush </w:t></w:r><w:r><w:t>the registers. </w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:i/></w:rPr><w:t>(refer to p. 378ff Digital Communcations, Sklar)</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="code"/></w:pPr><w:r><w:t><![CDATA[% Implement the Convolutional Decoder and encode a binary message 
+
+
+k = 4
+
+% Encode using the built-in convolutional encoder for comparison
+
+]]></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t> </w:t></w:r></w:p><w:p><w:pPr><w:sectPr/></w:pPr></w:p><w:p><mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"><mc:Choice Requires="R2018b"><w:pPr><w:pStyle w:val="heading3"/><w:jc w:val="left"/></w:pPr></mc:Choice><mc:Fallback><w:pPr><w:pStyle w:val="heading"/><w:jc w:val="left"/></w:pPr></mc:Fallback></mc:AlternateContent><w:r><w:rPr><w:b/><w:u/><w:rFonts w:cs="monospace"/></w:rPr><w:t>Task 3 : Cyclic Redundancy Check - CRC</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t>Now use a CRC encoder on your message.</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t>Obtain an estimate for the error detection capability of the CRC, i.e. what is the probability of missed error detection of the CRC, and the overhead introduced.</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="code"/></w:pPr><w:r><w:t><![CDATA[% Original message
+
+
+% CRC encode
+
+
+% Convolutional encode (Task 2 function, or matlab built-in function)
+
+
+% Simulate channel — introduce errors
+
+
+% Viterbi decode
+
+
+% CRC check — did Viterbi recover everything correctly?
+]]></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="code"/></w:pPr><w:r><w:t><![CDATA[]]></w:t></w:r></w:p><w:p><w:pPr><w:sectPr/></w:pPr></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:b/><w:u/><w:rFonts w:cs="monospace"/></w:rPr><w:t>Task 4: Interleaving</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t>Realise a system that utilises convolutional coding and eventually cyclic redundancy checks to correct and detect errors in transmission.</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t>Document the minimum separation achieved by the interleaver.</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="code"/></w:pPr><w:r><w:t><![CDATA[% Message + CRC
+
+
+% Convolutional encoding
+
+
+% Interleaving
+
+
+% 16-QAM modulation. Note: needs groups of 4 bits, Matlab function qammod()
+
+
+% Channel — AWGN
+
+
+% Demodulation
+
+
+% De-interleaving
+
+
+% Viterbi decoding
+
+
+% CRC check
+
+
+% BER count
+
+]]></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t>Check BER at 10dB, and 5dB</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="code"/></w:pPr><w:r><w:t><![CDATA[]]></w:t></w:r></w:p><w:p><w:pPr><w:sectPr/></w:pPr></w:p><w:p><mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"><mc:Choice Requires="R2018b"><w:pPr><w:pStyle w:val="heading3"/><w:jc w:val="left"/></w:pPr></mc:Choice><mc:Fallback><w:pPr><w:pStyle w:val="heading"/><w:jc w:val="left"/></w:pPr></mc:Fallback></mc:AlternateContent><w:r><w:rPr><w:b/><w:u/><w:rFonts w:cs="monospace"/></w:rPr><w:t>Task 5: Coding Gain</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t>Compare the BER vs SNR performance of     </w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:numId w:val="1"/></w:numPr><w:jc w:val="left"/></w:pPr><w:r><w:t>Hamming codes</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:numId w:val="1"/></w:numPr><w:jc w:val="left"/></w:pPr><w:r><w:t>Convolutional codes w/ hard-, and soft decoding</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="text"/><w:jc w:val="left"/></w:pPr><w:r><w:t>This is an unguided exercises. It is recommended to use Matlab inbuilt functions wherever possible. </w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="code"/></w:pPr><w:r><w:t><![CDATA[% Implementation
+]]></w:t></w:r></w:p><w:p><mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"><mc:Choice Requires="R2018b"><w:pPr><w:pStyle w:val="heading3"/><w:jc w:val="left"/></w:pPr></mc:Choice><mc:Fallback><w:pPr><w:pStyle w:val="heading"/><w:jc w:val="left"/></w:pPr></mc:Fallback></mc:AlternateContent><w:r><w:rPr><w:b/><w:u/><w:rFonts w:cs="monospace"/></w:rPr><w:t></w:t></w:r></w:p><w:p><mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"><mc:Choice Requires="R2018b"><w:pPr><w:pStyle w:val="heading3"/><w:jc w:val="left"/></w:pPr></mc:Choice><mc:Fallback><w:pPr><w:pStyle w:val="heading"/><w:jc w:val="left"/></w:pPr></mc:Fallback></mc:AlternateContent><w:r><w:rPr><w:b/><w:u/><w:rFonts w:cs="monospace"/></w:rPr><w:t></w:t></w:r></w:p></w:body></w:document>
